@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Container, AppBar, Toolbar, Typography } from '@mui/material';
-import TaskForm from './components/TaskForm';
-import TaskTable from './components/TaskTable';
+import TaskForm from './components/TaskForm.jsx';
+import TaskTable from './components/TaskTable.jsx';
 import { getTasks, saveTasks } from './utils/storage';
+
 
 function App() {
   const [tasks, setTasks] = useState([]);

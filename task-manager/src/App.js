@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Container, AppBar, Toolbar, Typography } from '@mui/material';
-import TaskForm from './components/taskForm';
-import TaskTable from './components/taskTable';
+import TaskForm from './components/TaskForm';
+import TaskTable from './components/TaskTable';
 import { getTasks, saveTasks } from './utils/storage';
 
 function App() {
